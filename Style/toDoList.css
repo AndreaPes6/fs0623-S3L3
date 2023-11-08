@@ -6,11 +6,7 @@
   }
   
   .contenitore {
-    background: linear-gradient(
-      180deg,
-      rgba(252, 245, 237, 1) 0%,
-      rgba(244, 191, 150, 1) 55%
-    );
+    background: #F4BF96;
   
     width: 100%;
     height: 100vh;
@@ -21,10 +17,10 @@
   
   .todo {
     width: 100%;
-    max-width: 540px;
+    max-width: 75vh;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 40px 30px 70px;
-    border-radius: 10px;
+    border-radius: 2vh;
   }
   
   .todo h2 {
@@ -38,10 +34,9 @@
   
   .row {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: antiquewhite;
-    height: 50px;
+     height: 6.5vh;
     border-top-left-radius: 4vh;
     border-bottom-left-radius: 4vh;
     transition: 0.3s ease all;
@@ -50,13 +45,13 @@
   
   
   .row input {
-    flex: 1;
+  
     border: none;
     outline: none;
-    height: 50px;
+    height: 6.5vh;
     background: transparent;
     padding: 20px;
-    font-size: 20px;
+    font-size: 1.5em;
     border-top-left-radius: 4vh;
     border-bottom-left-radius: 4vh;
     color: #ce5a67;
@@ -64,7 +59,7 @@
   
   .row input::placeholder {
     color: #ce5a67;
-    font-size: 20px;
+    font-size: 1em;
   }
 
   .row input:hover {
@@ -80,7 +75,7 @@
     text-align: center;
     background: #ce5a67;
     color: #fcf5ed;
-    font-size: 20px;
+    font-size: 1.5em;
     cursor: pointer;
     border-radius: 0 30px 30px 0;
     transition: 0.5s ease-in-out all;
