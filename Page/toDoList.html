@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="content" content="Lista di cose da fare personale">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="/Style/toDoList.css">
+  </head>
+  <body>
+    <div class="contenitore">
+      <div class="todo">
+        <h2>Cose da fare!</h2>
+        <div class="row">
+          <input type="text" id="cosaDaFare" placeholder="scrivi cosa vuoi fare">
+          <button onclick="aggiungi()">aggiungi</button>
+        </div>
+        <ul id="contenitoreLista">
+        </ul>
+      </div>
+    </div>
+    <script src="/functions/toDoList.js"></script>
+  </body>
+</html>
